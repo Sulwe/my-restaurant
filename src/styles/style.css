@@ -1,0 +1,21 @@
+body {
+    background-image: url(../assets/rest.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav button {
+    color: orangered;
+    background: orange;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: hsl(39, 81%, 69%);
+}
